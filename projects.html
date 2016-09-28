@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Software by Travis Dean">
+<meta name="description" content="Software Projects by Travis Dean">
 <meta name="author" content="Travis Dean">
 
 
@@ -20,8 +20,10 @@
 	
 <script src="js/jquery-2.1.3.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<!-- My CSS -->
+<link href="css/style.css" rel="stylesheet">
 <head>
-<title>Travis Dean: Collections of Things</title>
+<title>Travis Dean: Software Projects</title>
 </head>
 
 <body>
@@ -31,29 +33,25 @@
         <h3 class="text-muted">Travis Dean</h3>
         <ul class="nav nav-justified">
             <li><a href="index.html">Home</a></li>
+            <li><a href="mez.html">Mez</a></li>
             <li class="active"><a href="projects.html">Projects</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </div>
     <!-- Jumbotron -->
     <div class="jumbotron">
-        <h2>Music Visualization</h2>
-                <p><small>Mez is a realtime, 3D music visualizer. It can be viewed in VR if the hardware is available.</p> 
-                <iframe width="620" height="510" src="https://www.youtube.com/embed/Vwdc3ja23gk" frameborder="0" allowfullscreen></iframe>
-                <iframe width="907" height="510" src="https://www.youtube.com/embed/5h9Gtv9qY2U" frameborder="0" allowfullscreen></iframe>
-		<p></p>
-        <p><img src="media/mez2screen.jpg" class="img-responsive" alt="Colorful piano notes"></p>
-		<p><small>An early version of MEZ</small></p>
-                <iframe width="620" height="510" src="https://www.youtube.com/embed/LavGmOhys-E" frameborder="0" allowfullscreen></iframe>
-                <p>This version of Mez reacted directly to MIDI notes played on a Piano.</p>
-		<p>One thing I love is synaesthesia, and made many attempts to simulate it with every method at my disposal, the current result of which is MEZ. It has the capability to analysis the notes played by a MIDI keyboard connected to a computer, shown above, as well as more general audio data through FFT transformations.</p>
-		
-		<h2>Augmented Reality Experiments<h2>
+        <h2>Mez</h2>
+			<p>Mez is a realtime, 3D music visualization instrument. Lately it's been my primary project. Check this <a href="mez.html">page</a> for more information.<p>
+			<p><small>An early version of MEZ worked directly from MIDI notes</small></p>
+			<p><img src="media/mez2screen.jpg" class="img-responsive" alt="Colorful piano notes"></p>
+		<h2>Virtual and Augmented Reality</h2>
+		<p><tab1>Synthesizing novel environments that blend well with the realism of our local realities is difficult to do well. I've experimented with many of the frameworks for doing such, which resulted in this crown of colors, which tracks your head, responds to music, and attempts to occlude itself correctly. While silly, it did give me more of an idea for how to design around limitations in future AR systems. </p>
         <p><img src="media/arcrown.jpg" class="img-responsive" alt="Augmented music crown"></p>
-		<p>Synthesizing novel environments that blend well with the realism of our local realities is difficult to do well. Here I'm rendering some dynamic elements that change based on the music, as well as being occluded by estimations of my head's position in 3D space.</p>
+		<p><tab1>I'm also quite interested in the VR concert field, which has exciting implications for content creation as well. Distributed music making systems, where the crowd's input is synthesized live into some sort of musical piece, tend to not work well because of how sensitive the auditory system is to latency (not to mention the instrument design question). However, not every potentially crowdsourced parameter must go to generating music. If, instead, the virtual crowd in some way influences both their and others' visulization of the music, then that would be an experience worthy of one's full attention &mdash; a wonderful thing for the nascent industry. Of course, it would have to be a great deal more than just avatars going around with their Tilt Brush designed music-reactive creations on their head!
+		<p><small>If you're interested in discussing that idea further, email me.</p>
+		<p>
 		
     </div>
-
 
     <div class="footer">
         <p>&copy; Travis Dean 2016</p>
